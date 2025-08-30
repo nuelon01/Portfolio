@@ -1,7 +1,0 @@
-﻿# Node / build / system
-node_modules/
-dist/
-build/
-.DS_Store
-.vscode/
-*.log
