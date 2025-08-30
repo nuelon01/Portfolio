@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Adenugba Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <img src="assets/profile.jpg" alt="Emmanuel Adenugba" class="profile-pic">
+    <h1>Emmanuel Adenugba</h1>
+    <p>RWA Researcher | Web3 Enthusiast | Community Builder</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul id="skills-list">
+      <li>Web Design</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Community Management</li>
+      <li>RWA Research</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div id="projects"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="socials">
+      <li><a href="mailto:nxulltechnoogies@gmail.com">Gmail</a></li>
+      <li><a href="https://medium.com/@_Nxull">Medium</a></li>
+      <li><a href="https://t.me/N_Nxull">Telegram</a></li>
+      <li><a href="https://x.com/_Nxull">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/emmanuel-adenugba/">LinkedIn</a></li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

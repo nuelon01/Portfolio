@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #eee;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1f1f1f;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #eee;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00e0ff;
+}
+
+nav a.active {
+  color: #ff6f61;
+}
+
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.socials li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.socials a {
+  color: #00e0ff;
+  text-decoration: none;
+}
